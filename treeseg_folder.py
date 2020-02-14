@@ -10,7 +10,7 @@ import shutil
 import glob
 
 options = input(
-    'Type 0 to copy and make treeseg directories hierachy from *.rxp files in registered scan directory or\nType 1 to rename *.DAT files:\n')
+    'Type 0 to copy and make treeseg directories hierarchy from *.rxp files in registered scan directory or\nType 1 to rename *.DAT files:\n')
 if options == '0':
     print('-'*30 + '\n' + 'This will copy and make treeseg directories hierachy from *.rxp files in registered scan directory' + '\n' + '-'*30 + '\n')
     from_directory = input('From directory (like G:/k34-sapflow-2019-09-28.RiSCAN):\n')
