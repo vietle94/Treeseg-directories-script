@@ -1,4 +1,4 @@
-# Description
+# Description - PYTHON, check out R version at the end of this guide
 This is a python script to make registered scan folder compatible for treeseg algorithm at https://github.com/apburt/treeseg
 
 ## Tutorial - run on local machine
@@ -64,3 +64,7 @@ Use option 0 to create and copy files from registered scan folder in to a new fo
 Then open RiSCAN Pro to extract .DAT files into a subfolder called matrix
 
 Finally, run the script again and use option 1 to rename those .DAT files into correct format
+
+# Description - R
+
+There is another version of this application in R. Simply download it, open in Rstudio and follow the instruction
