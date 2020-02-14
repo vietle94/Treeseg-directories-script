@@ -29,7 +29,7 @@ and follow instructions. There will be two options:
 
 - Type 0 to copy and make treeseg directories hierarchy from .rxp files in registered scan directory or
 
-- Type 1 to rename .DAT files:'
+- Type 1 to rename .DAT files:
 
 ## Recommended workflow
 
