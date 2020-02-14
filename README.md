@@ -1,7 +1,7 @@
 # Description
 This is a python script to make registered scan folder compatible for treeseg algorithm at https://github.com/apburt/treeseg
 
-## Tutorial
+## Tutorial - run on local machine
 Make sure you have python installed.
 Clone this repository to your machine
 
@@ -27,9 +27,35 @@ python treeseg_folder.py
 ```
 and follow instructions. There will be two options:
 
-- Type 0 to copy and make treeseg directories hierarchy from .rxp files in registered scan directory or
+- Type 0 to copy and make treeseg directories hierarchy from .rxp files in registered scan directory
 
-- Type 1 to rename .DAT files:
+- Type 1 to rename .DAT files
+
+## Tutorial - run on Puhti
+
+First, copy registered scan folder to Puhti.
+
+Login to Puhti, then located preferred directory for the script
+
+Clone this repository to current directory
+
+```
+git clone https://github.com/vietle94/Treeseg-directories-script.git
+```
+
+Go inside this directory and run this script:
+
+```
+cd Treeseg-directories-script
+python treeseg_folder.py
+```
+and follow instructions. NOTE THAT YOU NEED TO TYPE IN "1" AND "0" with the quotation mark in this environment
+
+There will be two options:
+
+- Type "0" to copy and make treeseg directories hierarchy from .rxp files in registered scan directory or
+
+- Type "1" to rename .DAT files
 
 ## Recommended workflow
 
