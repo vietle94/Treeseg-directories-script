@@ -12,7 +12,7 @@ import glob
 options = input(
     'Type 0 to copy and make treeseg directories hierarchy from *.rxp files in registered scan directory or\nType 1 to rename *.DAT files:\n')
 if options == '0':
-    print('-'*30 + '\n' + 'This will copy and make treeseg directories hierachy from *.rxp files in registered scan directory' + '\n' + '-'*30 + '\n')
+    print('-'*30 + '\n' + 'This will copy and make treeseg directories hierarchy from *.rxp files in registered scan directory' + '\n' + '-'*30 + '\n')
     from_directory = input('From directory (like G:/k34-sapflow-2019-09-28.RiSCAN):\n')
     to_directory = input(
         '\n' + '*'*30 + '\nTo directory (like G:/TREESEG-k34-sapflow-2019-09-28.RiSCAN), this will create the folder if not existed:\n')

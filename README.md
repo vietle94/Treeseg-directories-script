@@ -11,7 +11,7 @@ git clone https://github.com/vietle94/Treeseg-directories-script.git
 
 or just download this and then unzip.
 
-Open the terminal inside the folder by typing
+Next, open the terminal inside the folder by typing
 
 ```
 cmd
@@ -29,7 +29,7 @@ and follow instructions. There will be two options:
 
 - Type 0 to copy and make treeseg directories hierarchy from .rxp files in registered scan directory or
 
-- Type 1 to rename .DAT files:\n'
+- Type 1 to rename .DAT files:'
 
 ## Recommended workflow
 
